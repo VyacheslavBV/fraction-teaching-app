@@ -1,0 +1,90 @@
+﻿<Window x:Class="Обучающее_приложение_Дроби.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Обучающее_приложение_Дроби"
+        mc:Ignorable="d"
+        Title="Дроби" 
+        MaxHeight="600" 
+        MaxWidth="600"
+        MinHeight="600" 
+        MinWidth="600"
+        
+        Height="600" 
+        Width="600">
+    <Grid>
+
+        <Button x:Name="button3" Content="Смеш." Height="40" Margin="300,0,0,500" Width="60" Click="rets"/>
+        <Button x:Name="button4" Content="Простая" Height="40" Margin="430,0,0,500" Width="60" Click="ret"/>
+        <Button x:Name="button5" Content="Ответ" Height="40" Margin="430,500,0,0" Width="60" Click="ret"/>
+        <Button x:Name="button6" Content="Очистить" Height="40" Margin="290,500,0,0" Width="60" Click="del"/>
+        
+        <TextBox x:Name="textBox1" Height="20" Margin="0,0,500,350"
+                 TextWrapping="Wrap" Text="" Width="40"/>
+        <TextBox x:Name="textBox2" Height="20" Margin="0,0,400,300"
+                 TextWrapping="Wrap" Text="" Width="40"/>
+        <TextBox x:Name="textBox3" Height="20" Margin="0,0,400,400"
+                 TextWrapping="Wrap" Text="" Width="40"/>
+        
+        <TextBlock x:Name="textBlock1" Margin="0,0,400,350" TextWrapping="Wrap" Text="--------"
+                   Height="20" Width ="40"/>
+
+
+        <TextBox x:Name="textBox4" Height="20" Margin="0,0,0,350"
+         TextWrapping="Wrap" Text="" Width="40"/>
+        <TextBox x:Name="textBox5" Height="20" Margin="100,0,0,300"
+         TextWrapping="Wrap" Text="" Width="40"/>
+        <TextBox x:Name="textBox6" Height="20" Margin="100,0,0,400"
+         TextWrapping="Wrap" Text="" Width="40"/>
+        <TextBlock x:Name="textBlock2" Margin="100,0,0,350" TextWrapping="Wrap" Text="--------"
+           Height="20" Width ="40"/>
+
+        <TextBox x:Name="sign" Height="20" Margin="0,0,200,350"
+        TextWrapping="Wrap" Text="" Width="40"/>
+        <TextBlock x:Name="textBlock3" Margin="225,0,0,350" TextWrapping="Wrap" Text="="
+        Height="20" Width ="40"/>
+        
+        <TextBlock x:Name="ANS1" Margin="420,0,0,350" TextWrapping="Wrap" Text=""
+        Height="20" Width ="40"/>
+        
+        <TextBlock x:Name="ANS2" Height="20" Margin="425,0,0,300"
+        TextWrapping="Wrap" Text="" Width="50"/>
+        <TextBlock x:Name="ANS3" Height="20" Margin="425,0,0,400"
+        TextWrapping="Wrap" Text="" Width="50"/>
+        <TextBlock x:Name="ANS4" Height="20" Margin="320,0,0,350"
+        TextWrapping="Wrap" Text="" Width="50"/>
+        
+        <TextBlock x:Name="Start" Margin="0,0,200,500" TextWrapping="Wrap"
+                   Text="Введите данные в калькулятор: " Width="200" Height="20"/>
+
+        <TextBlock x:Name="answer2" Margin="20,0,0,170" TextWrapping="Wrap"
+        Text="" Width="580" Height="20"/>
+        <TextBlock x:Name="answer1" Margin="20,0,0,220" TextWrapping="Wrap"
+        Text="" Width="580" Height="20"/>
+        <TextBlock x:Name="answer3" Margin="20,0,0,120" TextWrapping="Wrap"
+        Text="" Width="580" Height="20"/>
+        <TextBlock x:Name="answer4" Margin="20,0,0,70" TextWrapping="Wrap"
+        Text="" Width="580" Height="20"/>
+        <TextBlock x:Name="answer5" Margin="20,0,0,20" TextWrapping="Wrap"
+        Text="" Width="580" Height="20"/>
+        <TextBlock x:Name="answer6" Margin="20,30,0,0" TextWrapping="Wrap"
+        Text="" Width="580" Height="20"/>
+        <TextBlock x:Name="answer7" Margin="20,80,0,0" TextWrapping="Wrap"
+        Text="" Width="580" Height="20"/>
+        <TextBlock x:Name="answer8" Margin="20,130,0,0" TextWrapping="Wrap"
+        Text="" Width="580" Height="20"/>
+        <TextBlock x:Name="answer9" Margin="20,180,0,0" TextWrapping="Wrap"
+        Text="" Width="580" Height="20"/>
+        <TextBlock x:Name="answer10" Margin="20,230,0,0" TextWrapping="Wrap"
+        Text="" Width="580" Height="20"/>
+        <TextBlock x:Name="answer11" Margin="20,280,0,0" TextWrapping="Wrap"
+        Text="" Width="580" Height="20"/>
+        <TextBlock x:Name="answer12" Margin="20,330,0,0" TextWrapping="Wrap"
+        Text="" Width="580" Height="20"/>
+
+        <TextBlock x:Name="Error" Margin="20,500,0,0" TextWrapping="Wrap"
+        Text="Ошибок нет." Width="580" Height="20"/>
+
+    </Grid>
+</Window>
